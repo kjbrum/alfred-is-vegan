@@ -1,0 +1,30 @@
+{
+  "name": "alfred-is-vegan",
+  "version": "1.0.0",
+  "description": "Check if a food ingredient is vegan or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjbrum/alfred-is-vegan.git"
+  },
+  "keywords": [
+    "vegan",
+    "food",
+    "ingredients",
+    "recipes",
+    "vegetarian"
+  ],
+  "author": "Kyle Brumm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjbrum/alfred-is-vegan/issues"
+  },
+  "homepage": "https://github.com/kjbrum/alfred-is-vegan#readme",
+  "dependencies": {
+    "alfy": "^0.7.0",
+    "is-vegan": "^1.1.3"
+  }
+}

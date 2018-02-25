@@ -6,7 +6,7 @@
   "author": {
     "name": "Kyle Brumm",
     "email": "kjbrumm@gmail.com",
-    "url": "kylebrumm.com"
+    "url": "http://kylebrumm.com"
   },
   "scripts": {
     "postinstall": "alfy-init",

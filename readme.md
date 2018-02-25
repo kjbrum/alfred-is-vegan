@@ -16,7 +16,7 @@ $ npm install --global alfred-is-vegan
 
 ## Usage
 
-In Alfred, type `vegan`, <kbd>Enter</kbd>, and some text, to search for an ingredient.
+In Alfred, type `vegan`, <kbd>Enter</kbd>, and start typing the ingredient to search for.
 
 
 ## Credits

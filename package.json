@@ -3,21 +3,30 @@
   "version": "1.0.0",
   "description": "Check if a food ingredient is vegan or not.",
   "main": "index.js",
+  "author": {
+    "name": "Kyle Brumm",
+    "email": "kjbrumm@gmail.com",
+    "url": "kylebrumm.com"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kjbrum/alfred-is-vegan.git"
   },
   "keywords": [
+    "alfred",
+    "workflow",
+    "alfred-workflow",
+    "alfred3-workflow",
     "vegan",
     "food",
     "ingredients",
     "recipes",
     "vegetarian"
   ],
-  "author": "Kyle Brumm",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kjbrum/alfred-is-vegan/issues"

@@ -7,15 +7,18 @@
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>F9CB0060-BB60-46B0-94FE-D11A5DE2FC46</key>
+		<array/>
+	</dict>
 	<key>createdby</key>
 	<string>Kyle Brumm</string>
 	<key>description</key>
-	<string>Check if a food ingredient is vegan or not</string>
+	<string>Check if a food ingredient is vegan or not.</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Is Vegan</string>
+	<string>Is Vegan?</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -42,7 +45,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Checking if ingredient is vegan...</string>
 				<key>script</key>
 				<string>./node_modules/.bin/run-node index.js "$1"</string>
 				<key>scriptargtype</key>
@@ -50,9 +53,9 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>Check if a food ingredient is vegan or not.</string>
 				<key>title</key>
-				<string>Check if a food ingredient is vegan or not</string>
+				<string>Is vegan?</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>

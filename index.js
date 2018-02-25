@@ -1,13 +1,11 @@
+'use strict';
+
 const alfy = require('alfy');
 
-alfy.fetch('jsonplaceholder.typicode.com/posts').then(data => {
-	const items = alfy
-		.inputMatches(data, 'title')
-		.map(x => ({
-			title: x.title,
-			subtitle: x.body,
-			arg: x.id
-		}));
+const ingredient = alfy.input;
 
-	alfy.output(items);
-});
+alfy.output([{
+    title: 'Is Vegan?',
+    subtitle: `${ingredient} is totally vegan!`,
+    arg: 'Vegan!'
+}]);

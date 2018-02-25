@@ -11,20 +11,14 @@ const ingredient = alfy.input;
 const veganItems = alfy
     .inputMatches(veganList)
     .map(x => ({
-        title: `${x} ✅`,
-        icon: {
-            path: ' '
-        }
+        title: `✅ ${x}`
     }));
 
 // Filter non-vegan list
 const nonVeganItems = alfy
     .inputMatches(nonVeganList)
     .map(x => ({
-        title: `${x} ❌`,
-        icon: {
-            path: ' '
-        }
+        title: `❌ ${x}`
     }));
 
 // Return the output

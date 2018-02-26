@@ -28,6 +28,11 @@
     "vegetarian",
     "alfy"
   ],
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kjbrum/alfred-is-vegan/issues"

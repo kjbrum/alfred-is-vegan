@@ -23,6 +23,13 @@ In Alfred, type `vegan`, <kbd>Enter</kbd>, and start typing the ingredient to se
 - [is-vegan](https://github.com/hmontazeri/is-vegan)
 
 
+## TODO
+
+- Handle passing in a list of ingredients
+    - Denote if all ingredients are vegan or not
+    - Display an item for each ingredient and denote if it is vegan or not
+
+
 ## License
 
 MIT &copy; [Kyle Brumm](http://kylebrumm.com)

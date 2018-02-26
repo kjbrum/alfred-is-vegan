@@ -5,13 +5,11 @@
 
 ## Install
 
-TODO
-
-<!-- ```
-$ npm install --global alfred-is-vegan
+```
+$ npm install -g alfred-is-vegan
 ```
 
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).* -->
+> __Note:__ Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).
 
 
 ## Usage
